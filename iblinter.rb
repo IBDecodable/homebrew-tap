@@ -5,8 +5,8 @@
 class Iblinter < Formula
   desc "A linter tool for interface builder"
   homepage ""
-  url "https://github.com/kateinoigakukun/IBLinter/archive/v0.1.2.tar.gz"
-  sha256 "1bef6d43566a0ac61e630072dbb54efb12b1c79cc5fdeeb8d0daa24c34088f28"
+  url "https://github.com/kateinoigakukun/IBLinter/archive/v0.1.3.tar.gz"
+  sha256 "cf3091f4037078251f8119aa85e531002922b3674a225ad973bd0099fdb1cff4"
 
   def install
     system "make", "install", "PREFIX=#{prefix}"
