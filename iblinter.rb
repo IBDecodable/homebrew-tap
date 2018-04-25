@@ -1,16 +1,11 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook.html
-#                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-
 class Iblinter < Formula
-  desc "A linter tool for interface builder"
-  homepage ""
-  url "https://github.com/kateinoigakukun/IBLinter/archive/v0.1.3.tar.gz"
-  sha256 "cf3091f4037078251f8119aa85e531002922b3674a225ad973bd0099fdb1cff4"
+  desc "A linter tool for Interface Builder"
+  url "https://github.com/IBDecodable/IBLinter.git",
+      :tag => "0.2.0",
+      :revision => "a7114ab7cf9d5186ce2e6e291f053acfb9d74ebd"
+  head "https://github.com/IBDecodable/IBLinter.git"
 
   def install
-    system "make", "install", "PREFIX=#{prefix}"
+    bin.install "bin/iblinter"
   end
-
-  depends_on :xcode => ["9.0", :build]
 end
