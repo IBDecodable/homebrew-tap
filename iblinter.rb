@@ -6,8 +6,6 @@ class Iblinter < Formula
       :revision => "00d0f13a522708346d1578720545cdd469934e33"
   head "https://github.com/IBDecodable/IBLinter.git"
 
-  depends_on "libxml2"
-
   def install
     system "make", "install", "PREFIX=#{prefix}"
   end
