@@ -9,7 +9,7 @@ class Iblinter < Formula
   bottle do
     root_url "https://github.com/IBDecodable/IBLinter/releases/download/0.4.16"
     cellar :any_skip_relocation
-    sha256 "205f06fcef18ef56fcae24b21614261f24ca16f4fa154c31c39988d8ee89c73f" => :mojave
+    sha256 "2358be5fb7e0340087e4278cf2c58635809a7b6e7f0cd6dcaaae88919e79cee2" => :mojave
   end
 
   def install
