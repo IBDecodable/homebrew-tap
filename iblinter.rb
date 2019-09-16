@@ -2,14 +2,14 @@ class Iblinter < Formula
   desc "A linter tool for Interface Builder"
   homepage "https://github.com/IBDecodable/IBLinter"
   url "https://github.com/IBDecodable/IBLinter.git",
-      :tag => "0.4.16",
-      :revision => "94dbc6cd5f305bc51c589727b64b5b9789e7a9dc"
+      :tag => "0.4.17",
+      :revision => "1953cc85410b299820659fc03070fcbc4dbc37a8"
   head "https://github.com/IBDecodable/IBLinter.git"
 
   bottle do
-    root_url "https://github.com/IBDecodable/IBLinter/releases/download/0.4.16"
+    root_url "https://github.com/IBDecodable/IBLinter/releases/download/0.4.17"
     cellar :any_skip_relocation
-    sha256 "2358be5fb7e0340087e4278cf2c58635809a7b6e7f0cd6dcaaae88919e79cee2" => :mojave
+    sha256 "9f6307cd53b04e6e2fef1dbcd4f97f1205f01f85a137a53717541cabd10fcc67" => :mojave
   end
 
   def install
